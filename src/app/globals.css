@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Root color variables for light & dark themes */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* Apply global styles */
+body {
+  @apply bg-black text-gray-100 font-sans transition-colors duration-300;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Smooth transitions for theme toggling */
+* {
+  @apply transition-colors duration-300;
+}
+
+/* Optional: style links and headings */
+a {
+  @apply text-cyan-400 hover:text-cyan-300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-100;
+}
