@@ -4,6 +4,8 @@ import type { NextConfig } from "next";
 const nextConfig = {
   output: 'export',              // static export
   images: { unoptimized: true }, // disable next/image optimization for GitHub Pages
+  basePath: '',
+  assetPrefix: '',
 };
 
 export default nextConfig;
