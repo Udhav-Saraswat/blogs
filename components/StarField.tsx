@@ -87,7 +87,7 @@ export default function StarField() {
         ref={bgRef}
         className="fixed top-0 left-0 w-full h-full bg-cover bg-center z-0 transition-transform duration-[15000ms] ease-linear"
         style={{
-          backgroundImage: "url('/images/galaxy-bg.png')",
+          backgroundImage: "url('images/galaxy-bg.png')",
           backgroundRepeat: "no-repeat",
           transformOrigin: "center center",
         }}

@@ -13,7 +13,7 @@ export default function Science() {
       id: 1,
       title: "Coming Soon",
       excerpt: "",
-      image: "/images/coming_soon.png",
+      image: "images/coming_soon.png",
       route: "",
     }
   ];

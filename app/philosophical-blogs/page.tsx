@@ -13,7 +13,7 @@ export default function Philosophy() {
       id: 1,
       title: "Coming Soon",
       excerpt: "",
-      image: "/images/coming_soon.png",
+      image: "images/coming_soon.png",
       path: "",
     }
   ];

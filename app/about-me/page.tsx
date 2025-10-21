@@ -16,7 +16,7 @@ export default function AboutMe() {
         {/* Profile Photo */}
         <div className="flex justify-center mb-8">
           <Image
-            src="/images/galaxy-bg.png" // 👈 replace with your actual image path
+            src="images/galaxy-bg.png" // 👈 replace with your actual image path
             alt="Ud - Creator"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.5)] object-cover"
           />

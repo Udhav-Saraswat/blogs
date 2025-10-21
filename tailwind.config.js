@@ -9,7 +9,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'cosmic': "url('/cosmic-bg.jpg')",
+        'cosmic': "url('images/cosmic-bg.jpg')",
       },
     },
   },
