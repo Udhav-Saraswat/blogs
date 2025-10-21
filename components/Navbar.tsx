@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex justify-between items-center p-4 bg-black/40 backdrop-blur-md fixed w-full z-50">
-      <h1 className="text-cyan-400 text-2xl font-bold">Udhav's Life</h1>
+      <h1 className="text-cyan-400 text-2xl font-bold">Udhav&apos;s Life</h1>
       <div className="flex gap-4">
         {['Home', 'About Me', 'Philosophical Blogs', 'Scientific Blogs', "Nazme, Ghazle aur tum"].map((page) => (
           <Link key={page} href={`/${page.toLowerCase().replace(/ /g, '-')}`}>

@@ -8,6 +8,7 @@ export default function StarField() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
@@ -21,16 +22,22 @@ export default function StarField() {
       alpha: Math.random(),
     }));
 
-    function resize() {
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
-    }
+    // ✅ Safe resize function with type guard
+    const resize = () => {
+      if (!canvas) return;
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width;
+      canvas.height = height;
+    };
+
     window.addEventListener("resize", resize);
 
     let angle = 0;
 
     function draw() {
       if (!ctx) return;
+
       ctx.clearRect(0, 0, width, height);
       ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
       ctx.fillRect(0, 0, width, height);
@@ -54,10 +61,10 @@ export default function StarField() {
         }
       }
 
-      // 🌠 Keep background large enough while rotating
+      // 🌠 Prevent rotation clipping
       if (bgRef.current) {
         angle += 0.000001;
-        const baseScale = 1.5; // expanded base size to prevent edge gaps
+        const baseScale = 1.5;
         const pulse = Math.sin(Date.now() * 0.0002) * 0.015;
         const scale = baseScale + pulse;
         bgRef.current.style.transform = `scale(${scale}) rotate(${angle}deg)`;
@@ -68,7 +75,9 @@ export default function StarField() {
 
     draw();
 
-    return () => window.removeEventListener("resize", resize);
+    return () => {
+      window.removeEventListener("resize", resize);
+    };
   }, []);
 
   return (
