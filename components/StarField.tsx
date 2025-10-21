@@ -22,7 +22,6 @@ export default function StarField() {
       alpha: Math.random(),
     }));
 
-    // ✅ Safe resize function with type guard
     const resize = () => {
       if (!canvas) return;
       width = window.innerWidth;
@@ -36,10 +35,11 @@ export default function StarField() {
     let angle = 0;
 
     function draw() {
+      // ✅ Ensure ctx is not null here
       if (!ctx) return;
 
       ctx.clearRect(0, 0, width, height);
-      ctx.fillStyle = "rgba(0, 0, 0, 0.25)";
+      ctx.fillStyle = "rgba(0,0,0,0.25)";
       ctx.fillRect(0, 0, width, height);
 
       ctx.fillStyle = "rgba(255,255,255,0.8)";
@@ -61,7 +61,6 @@ export default function StarField() {
         }
       }
 
-      // 🌠 Prevent rotation clipping
       if (bgRef.current) {
         angle += 0.000001;
         const baseScale = 1.5;
@@ -75,25 +74,20 @@ export default function StarField() {
 
     draw();
 
-    return () => {
-      window.removeEventListener("resize", resize);
-    };
+    return () => window.removeEventListener("resize", resize);
   }, []);
 
   return (
     <>
-      {/* Background galaxy — expanded to prevent rotation clipping */}
       <div
         ref={bgRef}
-        className="fixed top-0 left-0 w-full h-full bg-cover bg-center z-0 transition-transform duration-[15000ms] ease-linear"
+        className="fixed top-0 left-0 w-full h-full bg-cover bg-center z-0"
         style={{
           backgroundImage: "url('images/galaxy-bg.png')",
           backgroundRepeat: "no-repeat",
           transformOrigin: "center center",
         }}
       />
-
-      {/* Stars overlay */}
       <canvas
         ref={canvasRef}
         className="fixed top-0 left-0 w-full h-full z-10 pointer-events-none"
