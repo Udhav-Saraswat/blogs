@@ -2,12 +2,11 @@
   "name": "geeky-chronicles-cosmic",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "deploy": "next build && next export && gh-pages -d out"
-  },
+ "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "deploy": "next build && gh-pages -d out"
+},
   "dependencies": {
     "next": "15.5.5",
     "next-themes": "^0.4.6",
