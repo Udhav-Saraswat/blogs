@@ -16,7 +16,9 @@ export default function AboutMe() {
         {/* Profile Photo */}
         <div className="flex justify-center mb-8">
           <Image
-            src="images/galaxy-bg.png" // 👈 replace with your actual image path
+            width={400}
+            height={250}
+            src="images/ud.jpg" // 👈 replace with your actual image path
             alt="Ud - Creator"
             className="w-40 h-40 md:w-56 md:h-56 rounded-full border-4 border-cyan-400 shadow-[0_0_20px_rgba(0,255,255,0.5)] object-cover"
           />
@@ -24,7 +26,7 @@ export default function AboutMe() {
 
         {/* Description */}
         <p className="text-lg md:text-xl text-gray-300 leading-relaxed max-w-3xl mx-auto">
-          Hi, I’m <span className="text-cyan-400 font-semibold">Ud</span> — a curious explorer of existence,
+          Hi, I’m <span className="text-cyan-400 font-semibold">Udhav</span> — a curious explorer of existence,
           blending the logical beauty of science with the timeless wonder of philosophy and the soulful expression of poetry.
           Through this space, I share my reflections, discoveries, and creative musings that seek to connect mind and cosmos.
         </p>

@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full z-50 bg-black/50 backdrop-blur-md p-4 flex justify-between items-center">
-      <h1 className="text-cyan-400 text-xl sm:text-2xl font-bold">Udhav&apos;s Life</h1>
+      <h1 className="text-cyan-400 text-xl sm:text-2xl font-bold">My fragments of Life</h1>
 
       {/* Desktop menu */}
       <div className="hidden md:flex gap-4 items-center">

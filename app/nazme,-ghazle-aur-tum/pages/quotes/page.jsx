@@ -5,7 +5,7 @@ import React from "react";
 export default function Quotes() {
   const quotes = [
     {
-      text: " Alfaz-e-mohabbat mai, vo to gaya he chorke , chain bhi gaya, sukoon bhi gaya",
+      text: " ",
       author: "Ud",
     }
   ];
@@ -26,7 +26,8 @@ export default function Quotes() {
 
         {/* Poetic tagline */}
         <p className="text-gray-300 text-lg italic max-w-2xl text-center">
-          “Alfaaz jo dil ke raaste se nikal kar rooh tak pahunch jaayein.”
+          “Words that pass through the heart
+and find their way into the soul.”
         </p>
       </div>
 

@@ -9,68 +9,86 @@ export default function Ghazle() {
     {
       id: 1,
       title: "Vo tera khuda hai kya ?",
-      content: `Jo itni mohabbat se bhi na badla,  
-                Vo tera khuda hai kya...  
+      content: `Jo itni mohabbat se bhi na badla,
+Vo tera Khuda hai kya...
 
-                Hairat h mujhe es bat par,  
-                Tu ab bhi uspar fida hai kya...
-                
-                ek pal sukon nhi uske bina,
-                ye dil dewana hai kya...
+Hairat hai mujhe is baat par,
+Tu ab bhi us par fida hai kya...
 
-                bina chuua uska ahsas h yaha,
-                ye in hawao se mera rishta h kya... 
+Ek pal bhi sukoon nahi uske bina,
+Yahi dil-e-fanah hai kya...
 
-                bechain dil ko mai na btau ki vo h kaha,
-                ye khudme khudse mera rishta hai kya... 
+Bina chhuye uska ehsaas hai yahan,
+Ye in hawaon se mera rishta hai kya...
 
-                kon h uske sath, ye sawal kyu, 
-                mere dil se koi farar h kya... 
+Bechain dil ko na bataun main ki vo kahan,
+Ye khud mein khud se mera rishta hai kya...
 
-                duniya magan h apni dhun mai,
-                ye mera dil he yaha pareshan h kya... 
+Kaun hai uske saath, dil mein sawal kyu,
+Mere dil se koi farar hai kya...
 
-                uski ankho ke bahar bhi duniya hai,
-                ye mere dil se chupa hai kya... 
+Bina kuch jaane samajhta hai khud ko,
+Yahi dil-e-ghafil hai kya...
 
-                sab chor.. ye bata,
-                pure jahan mai ek vohi dilruba hai kya... `,
+Jise dhoondta phirta hoon puri duniya mein main,
+Vo yahi mere dil mein kahin chhupa hai kya...
+
+Duniya magan hai apni dhun mein,
+Ye ek mera dil hai yahan pareshan hai kya...
+
+Uski aankhon ke bahar bhi duniya hai,
+Mere dil se yahan kuch chhupa hai kya...
+
+Jana... ab to khwabon mein aana chhod do,
+Ab puri zindagi he tanhaaiyon ka ehsaas dilaogi kya...`,
 
       author: "— Ud",
     },
     { id: 2,
       title: "Zikarr kyuu ?",
-      content: `Jo paani ke liya terse,  
-                unse en sharabo ka zikarr kyu...  
+      content: `Jo paani ke liye tarse,
+Unse in sharaabon ka zikr kyu...
 
-                Jo jawani ke liya terse,
-                unse es zindgani ka zikarr kyu... 
+Jo jawani ke liye tarse,
+Unse is zindagani ka zikr kyu...
 
-                Jo kahani ke liya terse,
-                unse en khwabo ka zikarr kyu... 
+Jo kahani ke liye tarse,
+Unse in khwabon ka zikr kyu...
 
-                Jo mohabbat ke liya terse,
-                unse be-wafai ka zikarr kyu... 
+Jo mohabbat ke liye tarse,
+Unse bewafai ka zikr kyu...
 
-                Jo deewaro ke liya terse,
-                unse en makano ka zikarr kyu... 
+Jo deewaron ke liye tarse,
+Unse in makanon ka zikr kyu...
 
-                Jo hawa ke liya terse,
-                unse en fizao ka zikarr kyu...`,
+Jo hawao ke liye tarse,
+Unse in fizaaon ka zikr kyu...`,
+                
+      author: "— Ud",
+    },
+       { id: 3,
+      title: "Har to chuke hai !",
+      content: `Har to chuke hai,
+ab bas tamasha hona baki hai...
+
+Mohabbat to ho chuki hai,
+ab bas unka rusva hona baki hai...
+
+Manzil bhi mil gayi,
+ab mera pagal hona baki hai...
+
+Mujhe meri kismat bhi mil gayi,
+ab kiske haq mai faisla hona baki hai...
+
+Samajh kar ye samajh bhi aa gaya,
+ab bas khud ko barbaad karna baki hai...
+
+Mar to chuke hai,
+ab bas janaza hona baki hai...`,
                 
       author: "— Ud",
     }
-    //  ,{ id: 2,
-    //   title: "Khwabo ke sehar mai",
-    //   content: `Ek khwabo ke sehar mai,  
-    //             Rat dhali duphar mai...  
-
-                
-
-    //             `,
-                
-    //   author: "— Ud",
-    // },
+   
   ];
 
   const toggleExpand = (id) => {
