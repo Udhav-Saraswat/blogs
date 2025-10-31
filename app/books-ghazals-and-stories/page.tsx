@@ -41,7 +41,7 @@ export default function Poetry() {
       {/* Header */}
       <div className="relative z-10 p-10">
         <h1 className="text-4xl md:text-5xl font-bold text-cyan-300 mb-6 drop-shadow-[0_0_12px_rgba(0,255,255,0.5)]">
-          Nazme, Ghazle aur Tum ✨
+          Books Ghazals And Stories ✨
         </h1>
         <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-10">
           A soulful collection of words — explore the realms of emotions through stories, verses, and quotes.

@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import StarField from "@/components/StarField";
 
 export const metadata = {
-  title: "Geeky Chronicles",
+  title: "Udhav's Blog",
   description: "Exploring science, philosophy, and art of thought.",
 };
 
