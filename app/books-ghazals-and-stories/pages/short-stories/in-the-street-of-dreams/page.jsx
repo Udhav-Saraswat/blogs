@@ -23,7 +23,7 @@ export default function ShortStories() {
 
    {/* Download Button */}
 <a
-  href="/images/InTheStreetOfDreams.pdf"
+  href="images/InTheStreetOfDreams.pdf"
   target="_blank"
   className="
     absolute right-6 top-6 md:right-20 md:top-14
