@@ -7,7 +7,7 @@ export default function ShortStories() {
   const bookKey = "In the Street of Dreams"; // matches JSON key
 
   useEffect(() => {
-    fetch("/images/books.json")
+    fetch("https://udhav-saraswat.github.io/blogs/images/books.json")
       .then((res) => res.json())
       .then((data) => setChapters(data[bookKey] || {}))
       .catch((err) => console.error("Error loading book:", err));
@@ -23,7 +23,7 @@ export default function ShortStories() {
 
    {/* Download Button */}
 <a
-  href="/images/InTheStreetOfDreams.pdf"
+  href="https://udhav-saraswat.github.io/blogs/images/InTheStreetOfDreams.pdf"
   target="_blank"
   className="
     absolute right-6 top-6 md:right-20 md:top-14
