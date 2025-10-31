@@ -7,7 +7,7 @@ export default function ShortStories() {
   const bookKey = "In the Street of Dreams"; // matches JSON key
 
   useEffect(() => {
-    fetch("/images/books.json")
+    fetch("images/books.json")
       .then((res) => res.json())
       .then((data) => setChapters(data[bookKey] || {}))
       .catch((err) => console.error("Error loading book:", err));
