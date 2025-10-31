@@ -3,8 +3,8 @@ export default function ShortStories() {
     {
       title: "In the street of dreams",
       desc: "In the hush between past and present, he discovers that meaning isn’t found — it is remembered.",
-      img: "/images/cover.png",
-      link: "/books-ghazals-and-stories/pages/short-stories/in-the-street-of-dreams"
+      img: "images/cover.png",
+      link: "blogs/books-ghazals-and-stories/pages/short-stories/in-the-street-of-dreams"
     }
   ];
 
