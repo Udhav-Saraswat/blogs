@@ -16,7 +16,7 @@ export default function Navbar() {
     "About Me",
     "Philosophical Blogs",
     "Scientific Blogs",
-    "Nazme, Ghazle aur tum",
+    "Books Ghazals And Stories",
   ];
 
   return (

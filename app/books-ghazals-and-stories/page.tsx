@@ -9,25 +9,25 @@ export default function Poetry() {
   const categories = [
     {
       name: "Short Stories",
-      path: "/nazme,-ghazle-aur-tum/pages/short-stories",
+      path: "/books-ghazals-and-stories/pages/short-stories",
       color: "from-blue-500 to-cyan-400",
       emoji: "📖",
     },
     {
       name: "Ghazle",
-      path: "/nazme,-ghazle-aur-tum/pages/ghazle",
+      path: "/books-ghazals-and-stories/pages/ghazle",
       color: "from-pink-500 to-rose-400",
       emoji: "🌹",
     },
     {
       name: "Nazme",
-      path: "/nazme,-ghazle-aur-tum/pages/nazme",
+      path: "/books-ghazals-and-stories/pages/nazme",
       color: "from-purple-500 to-fuchsia-400",
       emoji: "✨",
     },
     {
       name: "Quotes",
-      path: "/nazme,-ghazle-aur-tum/pages/quotes",
+      path: "/books-ghazals-and-stories/pages/quotes",
       color: "from-amber-400 to-orange-500",
       emoji: "💫",
     },
