@@ -54,7 +54,7 @@ export default function ShortStories() {
 
       {/* Book Cover */}
       <img
-        src="images/cover.png"
+        src="https://udhav-saraswat.github.io/blogs/images/cover1.png"
         alt="Book Cover"
         className="
           mt-10 
