@@ -10,6 +10,12 @@ export default function ShortStories() {
       desc: "In the hush between past and present, he discovers that meaning isn’t found — it is remembered.",
       img: "https://udhav-saraswat.github.io/blogs/images/cover1.png",
       link: "/books-ghazals-and-stories/pages/short-stories/in-the-street-of-dreams"
+    },
+        {
+      title: "A Subway At AIIMS",
+      desc: "A emotional turmoil ",
+      img: "https://udhav-saraswat.github.io/blogs/images/coverAiims.png",
+      link: "/books-ghazals-and-stories/pages/short-stories/a-subway-at-aiims"
     }
   ];
 
